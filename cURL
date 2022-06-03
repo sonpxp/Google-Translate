@@ -6,4 +6,4 @@ curl --location --request POST 'https://www.google.com.vn/async/translate?vet=12
 --header 'Cookie: NID=146=p-KPB8sQ6nqjr8I56LiEJzjdcsk7Wh91oDwr0jU0rfwOfN4Y_l9T4j_5uaSDg_6tDMSEXmPdhueoxwYM4w6meuHTK1R-Mej8-9Fm4kiEb8kFw8wVPnrgtaefkgNPq3W9ro81wpyImN-QtPVKILiNYq5UN07oTQWarcfgEXHOl0w6PR7uE4Xh14o; 1P_JAR=2018-11-12-04; OGP=-5061451:; DV=AwAhS-7BuJMeYH8oIYu_J3hJpKxjcBY' \
 --header 'Connection:  keep-alive' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
---data-raw 'async=translate,sl:zh-CN,tl:en,st:你也是,id:1541997726654,qc:true,ac:true,_id:tw-async-translate,_pms:s,_fmt:pc'
+--data-raw 'async=translate,sl:en,tl:vi,st:hello world,id:1541997726654,qc:true,ac:true,_id:tw-async-translate,_pms:s,_fmt:pc'

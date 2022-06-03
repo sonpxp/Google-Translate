@@ -1,27 +1,88 @@
+import webbrowser
 import requests
-import json
-import urllib.request as urllib2
+import time
 
 
+def parse_string(text):
+    """Replace the following characters in the text"""
+    special_characters = (
+        ("%", "%25"),
+        (" ", "%20"),
+        (",", "%2C"),
+        ("?", "%3F"),
+        ("\n", "%0A"),
+        ('\"', "%22"),
+        ("<", "%3C"),
+        (">", "%3E"),
+        ("#", "%23"),
+        ("|", "%7C"),
+        ("&", "%26"),
+        ("=", "%3D"),
+        ("@", "%40"),
+        ("#", "%23"),
+        ("$", "%24"),
+        ("^", "%5E"),
+        ("`", "%60"),
+        ("+", "%2B"),
+        ("\'", "%27"),
+        ("{", "%7B"),
+        ("}", "%7D"),
+        ("[", "%5B"),
+        ("]", "%5D"),
+        ("/", "%2F"),
+        ("\\", "%5C"),
+        (":", "%3A"),
+        (";", "%3B")
+    )
 
-u='username'
-p='userpass'
-url='https://api.github.com/users/username'
+    for pair in special_characters:
+        text = text.replace(*pair)
 
-# simple wrapper function to encode the username & pass
-def encodeUserData(user, password):
-    return "Basic " + (user + ":" + password).encode("base64").rstrip()
+    return text
 
-# create the request object and set some headers
-req = urllib2.Request(url)
 
-req.add_header('Host', 'www.google.com/')
-req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0; Waterfox) Gecko/20100101 Firefox/56.2.5')
-req.add_header('Accept', '*/*')
-req.add_header('Referer', 'https://www.google.com/')
-req.add_header('Cookie', 'NID=146=p-KPB8sQ6nqjr8I56LiEJzjdcsk7Wh91oDwr0jU0rfwOfN4Y_l9T4j_5uaSDg_6tDMSEXmPdhueoxwYM4w6meuHTK1R-Mej8-9Fm4kiEb8kFw8wVPnrgtaefkgNPq3W9ro81wpyImN-QtPVKILiNYq5UN07oTQWarcfgEXHOl0w6PR7uE4Xh14o; 1P_JAR=2018-11-12-04; OGP=-5061451:; DV=AwAhS-7BuJMeYH8oIYu_J3hJpKxjcBY')
-req.add_header('Connection', 'keep-alive')
-req.add_header("Content-type", "application/x-www-form-urlencoded")
-req.add_header('Authorization', encodeUserData(u, p))
-# make the request and print the results
-res = urllib2.urlopen(req)
+def open_google_trans(source_language="en", target_language="pt", text_to_translate=None):
+    """
+        Translate the text from the source_language to the target_language, by opening the
+        Google Translate site with this info.
+        Parameters are all strings.
+        Return is None
+    """
+
+    # exit the function if no text is submitted
+    if not text_to_translate:
+        print("No text submitted to translation.\nPlease insert a text.\n")
+        return None
+
+    if text_to_translate.startswith("http"):
+        text_to_translate = requests.get(text_to_translate).text
+
+    elif text_to_translate.endswith(".txt"):
+        with open(text_to_translate) as file:
+            text_to_translate = file.read()
+
+    # variables to be used in the url:
+    # source language
+    sl = source_language
+    # target language
+    tl = target_language
+    # operation
+    operation = "translate"
+
+    text_to_translate = parse_string(text_to_translate)
+
+    # f-string with variables:
+    link = f"https://translate.google.com/?sl={sl}&tl={tl}&text={text_to_translate}&op={operation}"
+
+    # This function, from the webbrowser module, opens a link in the default browser
+    webbrowser.open(link)
+
+
+if __name__ == "__main__":
+    languages = ["pt", "es", "eo", "la", "tr", "ko", "ja"]
+    url = "https://raw.githubusercontent.com/fabricius1/Google-Translate-Automation/master/textToTranslate.txt"
+    text_to_translate = url
+
+    for language in languages:
+        open_google_trans("en", language, text_to_translate)
+        time.sleep(5)
