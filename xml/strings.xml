@@ -1,0 +1,421 @@
+<resources>
+    <string name="app_name" translatable="false">Lyda</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!-- menu nav main -->
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_community">Community</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_profile">Profile</string>
+    <string name="title_welcome">Welcome</string>
+    <string name="title_login">Login</string>
+    <string name="action_forgot_password">Forgot Password</string>
+    <string name="action_login">Login</string>
+    <string name="action_signup">Signup</string>
+    <string name="title_signup_now">Signup now</string>
+    <string name="title_login_with">Login with</string>
+    <string name="title_send_email">Send Email</string>
+    <string name="title_login_now">Login now</string>
+    <string name="prompt_birthday">birthday</string>
+    <string name="prompt_name">Name</string>
+
+    <!--Language-->
+    <string name="language_en" translatable="false">English</string>
+    <string name="language_vi" translatable="false">Vietnamese</string>
+
+    <!--Other-->
+    <string name="retry">Retry</string>
+    <string name="api_error_prefix">Error while reading data from api: </string>
+    <string name="overview">Overview</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="general_network_error">Cannot connect to server</string>
+    <string name="unknown_error">Unknown error happened</string>
+    <string name="loading" translatable="false">Loading …</string>
+
+    <!-- menu nav main -->
+    <string name="share_via" translatable="false">Via</string>
+    <string name="copied_to_clipboard" translatable="false">Copied to clipboard:\n%1$s</string>
+    <string name="clipboard_copy_error">Failed to copy to clipboard</string>
+    <string name="action_share">Share</string>
+
+    <string name="recently">Recently</string>
+    <string name="relative_time_today">Today</string>
+    <plurals name="relative_time">
+        <item quantity="one">Yesterday</item>
+        <item quantity="other">%1$d days ago</item>
+    </plurals>
+
+
+    <!-- The internet -->
+    <string name="network_error">Network Error</string>
+    <string name="error_view_tip">Tap the screen to try again</string>
+    <string name="json_data_error">Data parsing exception</string>
+    <string name="network_connect_error">Abnormal network connection</string>
+    <string name="network_connect_timeout">Network connection timed out</string>
+    <string name="no_route_to_host">Unable to connect to server</string>
+    <string name="network_response_code_error">Server status code exception：</string>
+    <string name="error_view_tip_retry">Loading failed, click retry</string>
+
+    <!---->
+
+    <string name="homepage">Home</string>
+    <string name="community">community</string>
+    <string name="notification">notification</string>
+    <string name="mine">mine</string>
+    <string name="discovery">discovery</string>
+    <string name="commend">commend</string>
+    <string name="daily">daily</string>
+    <string name="follow">follow</string>
+    <string name="push">push</string>
+    <string name="interaction">interaction</string>
+    <string name="inbox">inbox</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="delete">delete</string>
+    <string name="settings">settings</string>
+    <string name="share">share</string>
+    <string name="search">search</string>
+    <string name="advert">advert</string>
+    <string name="reply">reply</string>
+    <string name="plus_follow">follow +</string>
+    <string name="show_conversation">conversation</string>
+    <string name="srl_footer_nothing">footer nothing</string>
+    <string name="press_again_to_exit">press again to exit%1$s</string>
+    <string name="build_type">build type:%1$s</string>
+    <string name="channel">channel:%1$s</string>
+    <string name="version_name">version_name:%1$s</string>
+    <string name="currently_not_supported">currently not supported</string>
+    <string name="jump_page_unknown_error">jump page unknown error</string>
+    <string name="footer_not_more">- The End -</string>
+
+
+    <!-- time and date -->
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="weeks_ago">weeks ago</string>
+    <string name="year">year</string>
+    <string name="month">month</string>
+    <string name="day">day</string>
+    <string name="hour">hour</string>
+    <string name="minute">minute</string>
+
+    <!-- set up -->
+    <string name="daily_update_hint">- Daily update reminder -</string>
+    <string name="wifi_follow_auto_play">- Wi-Fi Follow page autoplay -</string>
+    <string name="split_line">|</string>
+    <string name="translate">- translate -</string>
+    <string name="clear_all_cache">clear all cache</string>
+    <string name="option_cache_path">choose cache path</string>
+    <string name="option_play_definition">choose cache path</string>
+    <string name="optian_cache_definition">Choose cache sharpness</string>
+    <string name="check_version">Check for version updates</string>
+    <string name="user_agreemnt">User Agreement</string>
+    <string name="legal_notices">Privacy Policy</string>
+    <string name="video_fun_statement">Video Feature Statement</string>
+    <string name="copyright_report">Copyright report</string>
+    <string name="clear_cache_succeed">Cache clear successfully</string>
+
+    <!-- mine -->
+    <string name="guide_login_tips">guide login tips</string>
+    <string name="favorites">favorites</string>
+    <string name="cache">cache</string>
+    <string name="my_follow">my focus</string>
+    <string name="watch_record">Watch History</string>
+    <string name="notification_toggle">notification_toggle</string>
+    <string name="my_badge">my badge</string>
+    <string name="feedback">feedback</string>
+    <string name="want_contribute">I want to contribute</string>
+    <string name="version_show">Version %1$s</string>
+
+    <!-- Login -->
+    <string name="forgot_password">forgot password</string>
+    <string name="login_tips">Sign in to follow authors,\npost comments, sync favorite videos and play history</string>
+    <string name="Input_iphone_or_email_tips">Please enter your mobile phone number and email address</string>
+    <string name="input_password_tips">Please enter password</string>
+    <string name="login">Login</string>
+    <string name="user_register">user register</string>
+    <string name="author_login">Author Login</string>
+    <string name="login_register_agree_tips">By logging in or registering, you agree to eye opening</string>
+    <string name="user_service_agreement">User Services Agreement</string>
+    <string name="guide_login_tips_two">After logging in, you can view notification information such as comments, replies, likes, and attention</string>
+    <string name="guide_login_tips_three">Don\'t miss important information</string>
+    <string name="guide_login_tips_four">Click to log in to follow topics and authors</string>
+
+    <!-- search -->
+    <string name="hot_keywords">Hot search keywords</string>
+    <string name="input_keywords_tips">Please enter your search keywords</string>
+    <string name="search_own">Search for videos, authors, users and tags</string>
+
+    <!-- Community -->
+    <string name="release">release:</string>
+    <string name="release_works_daily">Post your work and daily</string>
+    <string name="theme_square">Theme creation square</string>
+    <string name="refresh_commend">refresh recommendation</string>
+    <string name="private_letter">Personal communication</string>
+    <string name="choiceness">Featured</string>
+    <string name="split_line_two">/</string>
+    <string name="photo_count">%1$d/%2$d</string>
+    <string name="image_size_error">Image size is abnormal</string>
+
+    <!-- Video Details -->
+    <string name="pull_down_close_page">Pull down to close the page</string>
+    <string name="click_send_comment">Click to post your comment</string>
+    <string name="reply_target">Reply @%1$s</string>
+
+    <!--about-->
+    <string name="about">about</string>
+    <string name="version">version</string>
+    <string name="open_source_project_list">List of Open Source Projects</string>
+    <string name="thanks_to">%1$s The completion of this project is inseparable from the outstanding contributions of the following open source projects, and I would like to express special thanks to these open source projects.</string>
+
+    <!-- Encourage pop-up prompts -->
+    <string name="give_good_review">- Encourage pop-up prompts -</string>
+    <string name="encourage">encourage</string>
+    <string name="not_encourage">I will not give</string>
+    <string name="encourage_message">If you like the design of %1s and feel that the source code of this project is helpful for your study, you can give a \"Star\" support, thank you! ^_^</string>
+
+    <!--In app update-->
+    <string name="in_app_snack_bar_message">Update almost finished!</string>
+    <string name="in_app_snack_bar_action_title">RESTART</string>
+
+    <!--test settings screen-->
+    <string name="remind_to_take_a_break">Remind me to take a break</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="remind_me">Remind me to take a break</string>
+    <string name="remind_me_for_bed_time">remind_me_for_bed_time</string>
+    <string name="remind_for_bed_time">Remind me for bed time</string>
+    <string name="limit_data_usage">prefs_limit_data_usage</string>
+    <string name="stream_video">Only stream HD video on Wi-Fi</string>
+    <string name="limit_mobile_usage">Limit mobile data usage</string>
+    <string name="double_tap_to_seek">Double-tap to seek</string>
+    <string name="pref_seek_val">pref_seek_val</string>
+    <string name="seconds">seconds</string>
+    <string name="uploads">Uploads</string>
+    <string name="pref_uploads">pref_uploads</string>
+    <string name="specify_network_prefs">Specify network preferences for uploads</string>
+    <string name="prefs_restricted_mode">prefs_restricted_mode</string>
+    <string name="restricated_mode">Restricted Mode can help to hide videos with potentially mature content.No filter is 100% accurate, but it should help you to avoid most of this type of content.</string>
+    <string name="restricated_mode_description">Restricted Mode</string>
+    <string name="prefs_enable_stats">prefs_enable_stats</string>
+    <string name="enable_stats">Enable stats for nerds</string>
+
+
+    <string name="pref_blur_amount_summary">Amount of blur applied for blur themes, lower is faster</string>
+    <string name="pref_blur_amount_title">Blur amount</string>
+    <string name="pref_filter_song_summary">Filter songs by length</string>
+    <string name="pref_filter_song_title">Filter song duration</string>
+    <string name="pref_header_advanced">Advanced</string>
+    <string name="pref_header_album">Album style</string>
+    <string name="pref_header_audio">Audio</string>
+    <string name="pref_header_blacklist">Blacklist</string>
+    <string name="pref_header_controls">Controls</string>
+    <string name="pref_header_general">Theme</string>
+    <string name="pref_header_images">Images</string>
+    <string name="pref_header_library">Library</string>
+    <string name="pref_header_lockscreen">Lockscreen</string>
+    <string name="pref_header_playlists">Playlists</string>
+    <string name="pref_keep_pause_on_zero_volume_summary">Pauses the song when the volume decreases to zero and starts playing back when the volume level rises. Also works outside the app</string>
+    <string name="pref_keep_pause_on_zero_volume_title">Pause on zero</string>
+    <string name="pref_keep_screen_on_summary">Keep in mind that enabling this feature may affect battery life</string>
+    <string name="pref_keep_screen_on_title">Keep the screen on</string>
+    <string name="pref_language_name">Select language</string>
+    <string name="pref_snow_fall_title">Snow fall effect</string>
+    <string name="pref_summary_album_art_on_lockscreen">Use the currently playing song album cover as the lockscreen wallpaper</string>
+    <string name="pref_summary_album_artists_only">Show Album Artists in the Artist category</string>
+    <string name="pref_summary_audio_ducking">Lower the volume when a system sound is played or a notification is received</string>
+    <string name="pref_summary_audio_fade">Fade audio when song is paused or played</string>
+    <string name="pref_summary_blacklist">The content of blacklisted folders is hidden from your library.</string>
+    <string name="pref_summary_bluetooth_playback">Start playing as soon as connected to bluetooth device</string>
+    <string name="pref_summary_blurred_album_art">Blur the album cover on the lockscreen. Can cause problems with third party apps and widgets</string>
+    <string name="pref_summary_carousel_effect">Carousel effect for the album art in the now playing screen. Note that Card and Blur Card themes won\'t work</string>
+    <string name="pref_summary_classic_notification">Use the classic notification design</string>
+    <string name="pref_summary_colored_app">The background and control button colors change according to the album art from the now playing screen</string>
+    <string name="pref_summary_colored_app_shortcuts">Colors the app shortcuts in the accent color. Every time you change the color please toggle this to take effect</string>
+    <string name="pref_summary_colored_notification">"Colors the notification in the album cover\u2019s vibrant color"</string>
+    <string name="pref_summary_cross_fade">Duration to crossfade between songs</string>
+    <string name="pref_summary_desaturated_color">As per Material Design guide lines in dark mode colors should be desaturated</string>
+    <string name="pref_summary_expand_now_playing_panel">Clicking on the notification will show now playing screen instead of the home screen</string>
+    <string name="pref_summary_extra_controls">Add extra controls for mini player</string>
+    <string name="pref_summary_extra_song_info">Show extra Song information, such as file format, bitrate and frequency</string>
+    <string name="pref_summary_gapless_playback">"Can cause playback issues on some devices."</string>
+    <string name="pref_summary_home_banner">Show or hide the home banner</string>
+    <string name="pref_summary_ignore_media_store_artwork">Can increase the album cover quality, but causes slower image loading times. Only enable this if you have problems with low resolution artworks</string>
+    <string name="pref_summary_library_categories">Configure visibility and order of library categories.</string>
+    <string name="pref_summary_lock_screen">Use Retro Music\'s custom lockscreen controls</string>
+    <string name="pref_summary_manage_audio_focus">Always play audio in background regardless of anything else being played</string>
+    <string name="pref_summary_open_source_licences">License details for open source software</string>
+    <string name="pref_summary_pause_history">When enabled, newly played songs won\'t show in history</string>
+    <string name="pref_summary_remember_tab">Navigate to the last used tab on start</string>
+    <string name="pref_summary_show_lyrics">Display synced lyrics over album cover</string>
+    <string name="pref_summary_suggestions">Show New Music Mix on homescreen</string>
+    <string name="pref_summary_swipe_anywhere_now_playing">Enables changing song by swiping anywhere on the now playing screen</string>
+    <string name="pref_summary_swipe_to_dismiss">Swipe down to dismiss mini player</string>
+    <string name="pref_summary_toggle_full_screen">Immersive mode</string>
+    <string name="pref_summary_toggle_headset">Start playing immediately after headphones are connected</string>
+    <string name="pref_summary_toggle_shuffle">Shuffle mode will turn off when playing a new list of songs</string>
+    <string name="pref_summary_toggle_volume">If enough space is available, show volume controls in the now playing screen</string>
+    <string name="pref_summary_wallpaper_accent">Extract accent color from wallpaper</string>
+    <string name="pref_summary_whitelist">Only show music from /Music Folder</string>
+    <string name="pref_title_album_art_on_lockscreen">Show album cover</string>
+    <string name="pref_title_album_artists_only">Navigate by Album Artist</string>
+    <string name="pref_title_album_cover_style">Album cover theme</string>
+    <string name="pref_title_album_cover_transform">Album cover skip</string>
+    <string name="pref_title_app_shortcuts">Colored app shortcuts</string>
+    <string name="pref_title_appbar_mode">Header style</string>
+    <string name="pref_title_audio_ducking">Reduce volume on focus loss</string>
+    <string name="pref_title_audio_fade">Fade audio</string>
+    <string name="pref_title_auto_download_artist_images">Auto-download artist images</string>
+    <string name="pref_title_blacklist">Blacklist</string>
+    <string name="pref_title_bluetooth_playback">Bluetooth playback</string>
+    <string name="pref_title_blurred_album_art">Blur album cover</string>
+    <string name="pref_title_circle_button">Circular play button</string>
+    <string name="pref_title_classic_notification">Classic notification design</string>
+    <string name="pref_title_colored_app">Adaptive color</string>
+    <string name="pref_title_colored_notification">Colored notification</string>
+    <string name="pref_title_cross_fade">Crossfade (Beta)</string>
+    <string name="pref_title_custom_font">Use Manrope font</string>
+    <string name="pref_title_desaturated_color">Desaturated color</string>
+    <string name="pref_title_expand_now_playing_panel">Show now playing screen</string>
+    <string name="pref_title_extra_controls">Extra controls</string>
+    <string name="pref_title_extra_song_info">Song info</string>
+    <string name="pref_title_gapless_playback">Gapless playback</string>
+    <string name="pref_title_general_theme">App theme</string>
+    <string name="pref_title_home_album_grid_style">Album grid</string>
+    <string name="pref_title_home_artist_grid_style">Artist grid</string>
+    <string name="pref_title_home_banner">Banner</string>
+    <string name="pref_title_ignore_media_store_artwork">Ignore Media Store covers</string>
+    <string name="pref_title_last_added_interval">Last added playlist interval</string>
+    <string name="pref_title_lock_screen">Fullscreen controls</string>
+    <string name="pref_title_lyrics_screen_on">Keep screen on when showing lyrics</string>
+    <string name="pref_title_lyrics_type">Lyrics type</string>
+    <string name="pref_title_manage_audio_focus">Always play</string>
+    <string name="pref_title_now_playing_screen_appearance">Now playing theme</string>
+    <string name="pref_title_open_source_licences">Open source licences</string>
+    <string name="pref_title_pause_history">Pause history</string>
+    <string name="pref_title_remember_tab">Remember last tab</string>
+    <string name="pref_title_show_lyrics">Show lyrics</string>
+    <string name="pref_title_suggestions">Show suggestions</string>
+    <string name="pref_title_swipe_anywhere_now_playing">Swipe anywhere to change song</string>
+    <string name="pref_title_swipe_to_dismiss">Dismiss with swipe down</string>
+    <string name="pref_title_tab_text_mode">Tab titles mode</string>
+    <string name="pref_title_toggle_carousel_effect">Carousel effect</string>
+    <string name="pref_title_toggle_full_screen">Fullscreen app</string>
+    <string name="pref_title_toggle_toggle_headset">Auto-play</string>
+    <string name="pref_title_toggle_toggle_shuffle">Shuffle mode</string>
+    <string name="pref_title_toggle_volume">Volume controls</string>
+    <string name="pref_title_wallpaper_accent">Wallpaper accent color</string>
+    <string name="pref_title_whitelist">Whitelist music</string>
+
+    <string name="equalizer">Equalizer</string>
+    <string name="library_categories">Library categories</string>
+    <string name="window">Window</string>
+    <string name="no_equalizer">No equalizer found</string>
+    <string name="credit_title">Members and contributors </string>
+    <string name="others">Other</string>
+    <string name="made_with_love">Made with ❤ in Vietnamese</string>
+    <string name="changelog_summary">Check out What\'s New</string>
+    <string name="changelog">Changelog</string>
+    <string name="support_development">Support development</string>
+    <string name="rate_on_google_play_summary">Love this app? Let us know in the Google Play Store how we can make it even better</string>
+    <string name="rate_app">Rate the app</string>
+    <string name="translate_community">Help us translate the app to your language</string>
+    <string name="donate">Donate</string>
+    <string name="donate_summary">If you think I deserve to get paid for my work, you can leave some money here</string>
+    <string name="donation_header">Buy me a:</string>
+    <string name="done">Done</string>
+    <string name="help_summary">Need more help?</string>
+    <string name="faq">FAQ</string>
+    <string name="share_summary">Share the app with your friends and family</string>
+    <string name="bug_report_summary">An unexpected error occurred. Sorry you found this bug, if it keeps crashing \"Clear app data\" or send an Email </string>
+    <string name="bug_report_use_account">Send using GitHub account</string>
+    <string name="report_bug">Report bug</string>
+    <string name="git_hub_summary">Fork the project on GitHub</string>
+    <string name="git_hub" translatable="false">GitHub</string>
+    <string name="social">Social</string>
+    <string name="website">Website</string>
+    <string name="website_summary">Check out our Website</string>
+    <string name="pinterest_page">Pinterest</string>
+    <string name="pinterest_page_summary">Follow Pinterest page for Lyda design inspiration</string>
+    <string name="instagram_page" translatable="false">Instagram</string>
+    <string name="instagram_page_summary">Share your Lyda setup to showcase on Instagram</string>
+    <string name="twitter_page">Twitter</string>
+    <string name="twitter_page_summary">Share your design with Lyda</string>
+    <string name="telegram_group">Telegram</string>
+    <string name="telegram_group_summary">Join the Telegram group to discuss bugs, make suggestions, show off and more</string>
+    <string name="color">Color</string>
+    <string name="colors">Colors</string>
+    <string name="accent_color">Accent color</string>
+    <string name="accent_color_desc">The theme accent color, defaults to purple</string>
+    <!-- Material You -->
+    <string name="pref_title_md3">Material You</string>
+    <string name="share_app">Share app</string>
+    <string name="app_share">Hey check out this cool lyda at: https://play.google.com/store/apps/details?id=%s</string>
+
+    <string name="action_about">About</string>
+    <string name="about_settings_summary">Team, social links</string>
+    <string name="other_settings_summary">Advanced testing features</string>
+    <string name="notification_settings_summary">Customize the notification style</string>
+    <string name="image_settings_summary">Change artist image download settings</string>
+    <string name="personalize">Personalize</string>
+    <string name="personalize_settings_summary">Customize your now playing and UI controls</string>
+    <string name="audio_settings_summary">Change the sound settings and adjust the equalizer controls</string>
+    <string name="now_playing">Now playing</string>
+    <string name="now_playing_summary">Customize the now playing screen</string>
+    <string name="general_settings_summary">Change the theme and colors of the app</string>
+    <string name="general_settings_title">Look and feel</string>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="pref_remind_me_to_take_a_break">
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>10 hours</item>
+    </string-array>
+
+    <string-array name="pref_seek_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_uploads">
+        <item>Only when on Wi-Fi</item>
+        <item>On any network</item>
+    </string-array>
+    <!--end-->
+
+    <string name="customactivityoncrash_error_activity_error_details_share">Share Crash Report</string>
+    <string name="view_on_telegram">View on Telegram</string>
+    <string name="licenses">Licenses</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

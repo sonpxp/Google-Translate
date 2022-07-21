@@ -1,0 +1,30 @@
+# 1. truy cập https://github.com/espeak-ng/espeak-ng/releases để tải espeak-ng về pc.
+# 2. implement thư viện vào project: pip install phonemizer
+    + link: https://pypi.org/project/phonemizer/
+    + github: https://github.com/bootphon/phonemizer/
+# 3. using:
+    - pronunciation = phonemize(list[string], language=code, backend='espeak', with_stress=True, strip=True)
+    + list[string] -> truyền vào list word unicode cần convert IPA
+    + language -> country code language (cmd: espeak-ng --voices)
+    + with_stress = True -> cho phép hiển thị các dấu câu `` ...
+    + strip=True = True -> loại bỏ khoảng trống.
+    + backend -> default "espeak"
+    + print kết quả pronunciation
+
+# 4. note:
+    * đối với môi trường window nếu xảy ra lỗi install espeak, cần add path env trong window
+
+    Set Environment Variable in Windows via GUI
+
+    - Step 1. Press Windows + R to open the Windows Run prompt.
+
+    - Step 2. Type in sysdm.cpl and click OK.
+
+    - Step 3. Open the [Advanced] tab and click on the [Environment Variables] button in the System Properties window.
+
+    - Step 4. The Environment Variables window is divided into two sections. The sections display user-specific and system-wide environment variables. To add a variable, click the [New…] button under the appropriate section.
+        + path name: PHONEMIZER_ESPEAK_LIBRARY, path value: C:\Program Files\eSpeak NG\libespeak-ng.dll
+        + path name: PHONEMIZER_ESPEAK_PATH, path value: C:\Program Files\eSpeak NG\espeak-ng.exe
+
+    - Step 5. OKE (save)
+

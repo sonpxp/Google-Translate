@@ -6,6 +6,8 @@ import requests
 """
 link: https://cloud.google.com/translate/docs/languages
 """
+
+
 class Translator:
 
     @staticmethod
@@ -27,20 +29,21 @@ class Translator:
         try:
             data = re.findall('<span id="tw-answ-target-text">((.|\n)*?)</span>', html.text)[0][0]
             if data is not None:
-                return {"en": st, "vi": data}
+                # return {"en": st, "vi": data}
+                return data
             else:
                 return None
         except:
             return None
 
 
-translator = Translator()
-
-sl = "en"
-tl = "vi"
-# st = "welcome to vietnam"
-# st = "hello vietnam"
-st = "Will, you listen"
-# st = "Sorry about that, Mr...."
-a = translator.google_translate_api(sl, tl, st)
-print(a)
+# translator = Translator()
+#
+# sl = "en"
+# tl = "vi"
+# # st = "welcome to vietnam"
+# # st = "hello vietnam"
+# st = "Will, you listen"
+# # st = "Sorry about that, Mr...."
+# a = translator.google_translate_api(sl, tl, st)
+# print(a)

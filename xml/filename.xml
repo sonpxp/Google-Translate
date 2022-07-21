@@ -1,0 +1,476 @@
+<resources>
+    <string name="app_name" translatable="false">Lyda</string>
+    <string name="action_settings">Cài đặt</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="next">Tiếp theo</string>
+    <string name="previous">Trước</string>
+
+
+    <!-- menu nav main -->
+    <string name="menu_home">Nhà</string>
+    <string name="menu_search">Tìm kiếm</string>
+    <string name="menu_community">Cộng đồng</string>
+    <string name="menu_notification">Thông báo</string>
+    <string name="menu_profile">Hồ sơ</string>
+    <string name="title_welcome">Chào mừng</string>
+    <string name="title_login">Đăng nhập</string>
+    <string name="action_forgot_password">Quên mật khẩu</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="action_signup">Đăng ký</string>
+    <string name="title_signup_now">Đăng ký ngay</string>
+    <string name="title_login_with">Đăng nhập với</string>
+    <string name="title_send_email">Gửi email</string>
+    <string name="title_login_now">Đăng nhập ngay bây giờ</string>
+    <string name="prompt_birthday">ngày sinh nhật</string>
+    <string name="prompt_name">Tên</string>
+
+    <!--Language-->
+    <string name="language_en" translatable="false">Tiếng Anh</string>
+    <string name="language_vi" translatable="false">Tiếng Việt</string>
+
+    <!--Other-->
+    <string name="retry">Thử lại</string>
+    <string name="api_error_prefix">Lỗi khi đọc dữ liệu từ api:</string>
+    <string name="overview">Tổng quan</string>
+    <string name="no_internet">Không có kết nối Internet</string>
+    <string name="general_network_error">Không thể kết nối tới máy chủ</string>
+    <string name="unknown_error">Đã xảy ra lỗi không xác định</string>
+    <string name="loading" translatable="false">Đang tải …</string>
+
+    <!-- menu nav main -->
+    <string name="share_via" translatable="false">Thông qua</string>
+    <string name="copied_to_clipboard" translatable="false">Đã sao chép vào khay nhớ tạm: \ n% 1 $ s</string>
+    <string name="clipboard_copy_error">Không sao chép được vào khay nhớ tạm</string>
+    <string name="action_share">Đăng lại</string>
+
+    <string name="recently">Gần đây</string>
+    <string name="relative_time_today">Hôm nay</string>
+    <plurals name="relative_time">
+        <item quantity="one">Yesterday</item>
+        <item quantity="other">%1$d days ago</item>
+    </plurals>
+
+
+    <!-- The internet -->
+    <string name="network_error">Lỗi mạng</string>
+    <string name="error_view_tip">Nhấn vào màn hình để thử lại</string>
+    <string name="json_data_error">Ngoại lệ phân tích cú pháp dữ liệu</string>
+    <string name="network_connect_error">Kết nối mạng bất thường</string>
+    <string name="network_connect_timeout">Kết nối mạng đã hết thời gian chờ</string>
+    <string name="no_route_to_host">Không thể kết nối đến máy chủ</string>
+    <string name="network_response_code_error">Ngoại lệ mã trạng thái máy chủ ：</string>
+    <string name="error_view_tip_retry">Tải không thành công, nhấp vào thử lại</string>
+
+    <!---->
+
+    <string name="homepage">Nhà</string>
+    <string name="community">cộng đồng</string>
+    <string name="notification">thông báo</string>
+    <string name="mine">của tôi</string>
+    <string name="discovery">khám phá</string>
+    <string name="commend">khen ngợi</string>
+    <string name="daily">hằng ngày</string>
+    <string name="follow">theo dõi</string>
+    <string name="push">đẩy</string>
+    <string name="interaction">sự tương tác</string>
+    <string name="inbox">hộp thư đến</string>
+
+    <string name="open">mở</string>
+    <string name="close">gần</string>
+    <string name="ok">Vâng</string>
+    <string name="cancel">sự hủy bỏ</string>
+    <string name="delete">xóa bỏ</string>
+    <string name="settings">cài đặt</string>
+    <string name="share">đăng lại</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="advert">Quảng cáo</string>
+    <string name="reply">Đáp lại</string>
+    <string name="plus_follow">theo dõi +</string>
+    <string name="show_conversation">cuộc hội thoại</string>
+    <string name="srl_footer_nothing">chân trang không có gì</string>
+    <string name="press_again_to_exit">nhấn lại để thoát% 1 $ s</string>
+    <string name="build_type">loại xây dựng:% 1 $ s</string>
+    <string name="channel">kênh:% 1 $ s</string>
+    <string name="version_name">version_name:% 1 $ s</string>
+    <string name="currently_not_supported">hiện không được hỗ trợ</string>
+    <string name="jump_page_unknown_error">nhảy trang lỗi không xác định</string>
+    <string name="footer_not_more">- Kết thúc -</string>
+
+
+    <!-- time and date -->
+    <string name="minutes_ago">một vài phút trước</string>
+    <string name="hours_ago">nhiều giờ trước</string>
+    <string name="days_ago">ngày trước</string>
+    <string name="weeks_ago">vài tuần trước</string>
+    <string name="year">năm</string>
+    <string name="month">tháng</string>
+    <string name="day">ngày</string>
+    <string name="hour">giờ</string>
+    <string name="minute">phút</string>
+
+    <!-- set up -->
+    <string name="daily_update_hint">- Nhắc nhở cập nhật hàng ngày -</string>
+    <string name="wifi_follow_auto_play">- Tự động phát trang Theo dõi Wi-Fi -</string>
+    <string name="split_line">|</string>
+    <string name="translate">- dịch -</string>
+    <string name="clear_all_cache">xóa tất cả bộ nhớ cache</string>
+    <string name="option_cache_path">chọn đường dẫn bộ nhớ cache</string>
+    <string name="option_play_definition">chọn đường dẫn bộ nhớ cache</string>
+    <string name="optian_cache_definition">Chọn độ sắc nét của bộ nhớ cache</string>
+    <string name="check_version">Kiểm tra các bản cập nhật phiên bản</string>
+    <string name="user_agreemnt">sự thỏa thuận của người dùng</string>
+    <string name="legal_notices">Chính sách bảo mật</string>
+    <string name="video_fun_statement">Tuyên bố tính năng video</string>
+    <string name="copyright_report">Báo cáo bản quyền</string>
+    <string name="clear_cache_succeed">Xóa bộ nhớ cache thành công</string>
+
+    <!-- mine -->
+    <string name="guide_login_tips">hướng dẫn thủ thuật đăng nhập</string>
+    <string name="favorites">yêu thích</string>
+    <string name="cache">bộ nhớ đệm</string>
+    <string name="my_follow">trọng tâm của tôi</string>
+    <string name="watch_record">Lịch sử xem</string>
+    <string name="notification_toggle">thông báo_toggle</string>
+    <string name="my_badge">huy hiệu của tôi</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="want_contribute">Tôi muốn đóng góp</string>
+    <string name="version_show">Phiên bản% 1 $ s</string>
+
+    <!-- Login -->
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="login_tips">Đăng nhập để theo dõi tác giả, \ nđăng nhận xét, đồng bộ hóa video yêu thích và lịch sử
+        phát
+    </string>
+    <string name="Input_iphone_or_email_tips">Vui lòng nhập số điện thoại di động và địa chỉ email của bạn</string>
+    <string name="input_password_tips">Xin vui lòng nhập mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="user_register">đăng ký người dùng</string>
+    <string name="author_login">Đăng nhập Tác giả</string>
+    <string name="login_register_agree_tips">Bằng cách đăng nhập hoặc đăng ký, bạn đồng ý mở mắt</string>
+    <string name="user_service_agreement">Thỏa thuận dịch vụ người dùng</string>
+    <string name="guide_login_tips_two">Sau khi đăng nhập, bạn có thể xem thông tin thông báo như nhận xét, trả lời,
+        thích và chú ý
+    </string>
+    <string name="guide_login_tips_three">Đừng bỏ lỡ thông tin quan trọng</string>
+    <string name="guide_login_tips_four">Bấm đăng nhập để theo dõi chủ đề và tác giả</string>
+
+    <!-- search -->
+    <string name="hot_keywords">Từ khóa tìm kiếm phổ biến</string>
+    <string name="input_keywords_tips">Vui lòng nhập từ khóa tìm kiếm của bạn</string>
+    <string name="search_own">Tìm kiếm video, tác giả, người dùng và thẻ</string>
+
+    <!-- Community -->
+    <string name="release">phóng thích:</string>
+    <string name="release_works_daily">Đăng công việc của bạn và hàng ngày</string>
+    <string name="theme_square">Hình vuông tạo chủ đề</string>
+    <string name="refresh_commend">làm mới đề xuất</string>
+    <string name="private_letter">Sự giao tiếp cá nhân</string>
+    <string name="choiceness">Đặc sắc</string>
+    <string name="split_line_two">/</string>
+    <string name="photo_count">% 1 $ d /% 2 $ d</string>
+    <string name="image_size_error">Kích thước hình ảnh không bình thường</string>
+
+    <!-- Video Details -->
+    <string name="pull_down_close_page">Kéo xuống để đóng trang</string>
+    <string name="click_send_comment">Bấm để đăng bình luận của bạn</string>
+    <string name="reply_target">Trả lời @% 1 $ s</string>
+
+    <!--about-->
+    <string name="about">Về</string>
+    <string name="version">phiên bản</string>
+    <string name="open_source_project_list">Danh sách các dự án nguồn mở</string>
+    <string name="thanks_to">% 1 $ s Việc hoàn thành dự án này không thể tách rời những đóng góp xuất sắc của các dự án
+        mã nguồn mở sau, và tôi muốn gửi lời cảm ơn đặc biệt đến các dự án mã nguồn mở này.
+    </string>
+
+    <!-- Encourage pop-up prompts -->
+    <string name="give_good_review">- Khuyến khích các lời nhắc bật lên -</string>
+    <string name="encourage">khuyến khích</string>
+    <string name="not_encourage">Tôi sẽ không cho</string>
+    <string name="encourage_message">Nếu bạn thích thiết kế của% 1s và cảm thấy rằng mã nguồn của dự án này hữu ích cho
+        việc nghiên cứu của bạn, bạn có thể ủng hộ \ "Star \", cảm ơn bạn! ^ _ ^
+    </string>
+
+    <!--In app update-->
+    <string name="in_app_snack_bar_message">Cập nhật gần như hoàn tất!</string>
+    <string name="in_app_snack_bar_action_title">KHỞI ĐỘNG LẠI</string>
+
+    <!--test settings screen-->
+    <string name="remind_to_take_a_break">Nhắc tôi nghỉ giải lao</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="remind_me">Nhắc tôi nghỉ giải lao</string>
+    <string name="remind_me_for_bed_time">Rem_me_for_bed_time</string>
+    <string name="remind_for_bed_time">Nhắc tôi về giờ đi ngủ</string>
+    <string name="limit_data_usage">prefs_limit_data_usage</string>
+    <string name="stream_video">Chỉ phát trực tuyến video HD trên Wi-Fi</string>
+    <string name="limit_mobile_usage">Hạn chế sử dụng dữ liệu di động</string>
+    <string name="double_tap_to_seek">Nhấn đúp để tìm kiếm</string>
+    <string name="pref_seek_val">pref_seek_val</string>
+    <string name="seconds">giây</string>
+    <string name="uploads">Tải lên</string>
+    <string name="pref_uploads">pref_uploads</string>
+    <string name="specify_network_prefs">Chỉ định tùy chọn mạng để tải lên</string>
+    <string name="prefs_restricted_mode">prefs_restricted_mode</string>
+    <string name="restricated_mode">Chế độ hạn chế có thể giúp ẩn video có nội dung người lớn tiềm ẩn. Không có bộ lọc
+        nào chính xác 100%, nhưng nó sẽ giúp bạn tránh hầu hết loại nội dung này.
+    </string>
+    <string name="restricated_mode_description">Chế độ hạn chế</string>
+    <string name="prefs_enable_stats">prefs_enable_stats</string>
+    <string name="enable_stats">Bật số liệu thống kê cho mọt sách</string>
+
+
+    <string name="pref_blur_amount_summary">Số lượng hiệu ứng làm mờ được áp dụng cho các chủ đề mờ, càng thấp thì càng
+        nhanh
+    </string>
+    <string name="pref_blur_amount_title">Số lượng làm mờ</string>
+    <string name="pref_filter_song_summary">Lọc bài hát theo độ dài</string>
+    <string name="pref_filter_song_title">Lọc thời lượng bài hát</string>
+    <string name="pref_header_advanced">Nâng cao</string>
+    <string name="pref_header_album">Kiểu anbom</string>
+    <string name="pref_header_audio">Âm thanh</string>
+    <string name="pref_header_blacklist">Danh sách đen</string>
+    <string name="pref_header_controls">Kiểm soát</string>
+    <string name="pref_header_general">Chủ đề</string>
+    <string name="pref_header_images">Hình ảnh</string>
+    <string name="pref_header_library">Thư viện</string>
+    <string name="pref_header_lockscreen">Màn hình khóa</string>
+    <string name="pref_header_playlists">Danh sách phát</string>
+    <string name="pref_keep_pause_on_zero_volume_summary">Tạm dừng bài hát khi âm lượng giảm xuống 0 và bắt đầu phát lại
+        khi mức âm lượng tăng lên. Cũng hoạt động bên ngoài ứng dụng
+    </string>
+    <string name="pref_keep_pause_on_zero_volume_title">Tạm dừng về 0</string>
+    <string name="pref_keep_screen_on_summary">Hãy nhớ rằng việc bật tính năng này có thể ảnh hưởng đến tuổi thọ pin
+    </string>
+    <string name="pref_keep_screen_on_title">Giữ màn hình luôn bật</string>
+    <string name="pref_language_name">Chọn ngôn ngữ</string>
+    <string name="pref_snow_fall_title">Hiệu ứng tuyết rơi</string>
+    <string name="pref_summary_album_art_on_lockscreen">Sử dụng bìa album bài hát hiện đang phát làm hình nền màn hình
+        khóa
+    </string>
+    <string name="pref_summary_album_artists_only">Hiển thị các nghệ sĩ trong album trong danh mục Nghệ sĩ</string>
+    <string name="pref_summary_audio_ducking">Giảm âm lượng khi âm thanh hệ thống được phát hoặc nhận được thông báo
+    </string>
+    <string name="pref_summary_audio_fade">Làm mờ âm thanh khi bài hát bị tạm dừng hoặc phát</string>
+    <string name="pref_summary_blacklist">Nội dung của các thư mục nằm trong danh sách đen bị ẩn khỏi thư viện của
+        bạn.
+    </string>
+    <string name="pref_summary_bluetooth_playback">Bắt đầu chơi ngay sau khi kết nối với thiết bị bluetooth</string>
+    <string name="pref_summary_blurred_album_art">Làm mờ bìa album trên màn hình khóa. Có thể gây ra sự cố với các ứng
+        dụng và tiện ích của bên thứ ba
+    </string>
+    <string name="pref_summary_carousel_effect">Hiệu ứng băng chuyền cho ảnh bìa album trong màn hình đang phát. Lưu ý
+        rằng các chủ đề Thẻ và Thẻ mờ sẽ không hoạt động
+    </string>
+    <string name="pref_summary_classic_notification">Sử dụng thiết kế thông báo cổ điển</string>
+    <string name="pref_summary_colored_app">Màu nền và nút điều khiển thay đổi theo ảnh bìa album từ màn hình đang
+        phát
+    </string>
+    <string name="pref_summary_colored_app_shortcuts">Tô màu các phím tắt ứng dụng bằng màu nhấn. Mỗi khi bạn thay đổi
+        màu sắc, vui lòng chuyển đổi này để có hiệu lực
+    </string>
+    <string name="pref_summary_colored_notification">"Tô màu thông báo trong bìa album bằng màu sắc rực rỡ"</string>
+    <string name="pref_summary_cross_fade">Thời lượng giao nhau giữa các bài hát</string>
+    <string name="pref_summary_desaturated_color">Theo thiết kế Material Design, các dòng hướng dẫn ở chế độ tối màu
+        phải được khử bão hòa
+    </string>
+    <string name="pref_summary_expand_now_playing_panel">Nhấp vào thông báo sẽ hiển thị màn hình đang phát thay vì màn
+        hình chính
+    </string>
+    <string name="pref_summary_extra_controls">Thêm điều khiển bổ sung cho trình phát mini</string>
+    <string name="pref_summary_extra_song_info">Hiển thị thêm thông tin về Bài hát, chẳng hạn như định dạng tệp, tốc độ
+        bit và tần suất
+    </string>
+    <string name="pref_summary_gapless_playback">"Có thể gây ra sự cố phát lại trên một số thiết bị."</string>
+    <string name="pref_summary_home_banner">Hiển thị hoặc ẩn biểu ngữ trang chủ</string>
+    <string name="pref_summary_ignore_media_store_artwork">Có thể tăng chất lượng bìa album, nhưng gây ra thời gian tải
+        ảnh chậm hơn. Chỉ bật tính năng này nếu bạn gặp sự cố với các tác phẩm nghệ thuật có độ phân giải thấp
+    </string>
+    <string name="pref_summary_library_categories">Định cấu hình khả năng hiển thị và thứ tự của các danh mục thư
+        viện.
+    </string>
+    <string name="pref_summary_lock_screen">Sử dụng các điều khiển màn hình khóa tùy chỉnh của Retro Music</string>
+    <string name="pref_summary_manage_audio_focus">Luôn phát âm thanh trong nền bất kể bất kỳ thứ gì khác đang được
+        phát
+    </string>
+    <string name="pref_summary_open_source_licences">Chi tiết giấy phép cho phần mềm nguồn mở</string>
+    <string name="pref_summary_pause_history">Khi được bật, các bài hát mới phát sẽ không hiển thị trong lịch sử
+    </string>
+    <string name="pref_summary_remember_tab">Điều hướng đến tab được sử dụng gần đây nhất khi bắt đầu</string>
+    <string name="pref_summary_show_lyrics">Hiển thị lời bài hát đã đồng bộ hóa trên bìa album</string>
+    <string name="pref_summary_suggestions">Hiển thị Danh sách kết hợp âm nhạc mới trên màn hình chính</string>
+    <string name="pref_summary_swipe_anywhere_now_playing">Cho phép thay đổi bài hát bằng cách vuốt vào bất kỳ đâu trên
+        màn hình đang phát
+    </string>
+    <string name="pref_summary_swipe_to_dismiss">Vuốt xuống để loại bỏ trình phát mini</string>
+    <string name="pref_summary_toggle_full_screen">Chế độ nhập vai</string>
+    <string name="pref_summary_toggle_headset">Bắt đầu phát ngay sau khi kết nối tai nghe</string>
+    <string name="pref_summary_toggle_shuffle">Chế độ phát ngẫu nhiên sẽ tắt khi phát danh sách bài hát mới</string>
+    <string name="pref_summary_toggle_volume">Nếu có đủ dung lượng, hãy hiển thị các nút điều khiển âm lượng trong màn
+        hình đang phát
+    </string>
+    <string name="pref_summary_wallpaper_accent">Trích xuất màu nhấn từ hình nền</string>
+    <string name="pref_summary_whitelist">Chỉ hiển thị nhạc từ / Thư mục âm nhạc</string>
+    <string name="pref_title_album_art_on_lockscreen">Hiển thị bìa album</string>
+    <string name="pref_title_album_artists_only">Điều hướng theo nghệ sĩ album</string>
+    <string name="pref_title_album_cover_style">Chủ đề bìa album</string>
+    <string name="pref_title_album_cover_transform">Bỏ qua bìa album</string>
+    <string name="pref_title_app_shortcuts">Các phím tắt ứng dụng màu</string>
+    <string name="pref_title_appbar_mode">Kiểu tiêu đề</string>
+    <string name="pref_title_audio_ducking">Giảm âm lượng khi mất tiêu điểm</string>
+    <string name="pref_title_audio_fade">Làm mờ âm thanh</string>
+    <string name="pref_title_auto_download_artist_images">Tự động tải xuống hình ảnh nghệ sĩ</string>
+    <string name="pref_title_blacklist">Danh sách đen</string>
+    <string name="pref_title_bluetooth_playback">Phát lại Bluetooth</string>
+    <string name="pref_title_blurred_album_art">Làm mờ bìa album</string>
+    <string name="pref_title_circle_button">Nút phát hình tròn</string>
+    <string name="pref_title_classic_notification">Thiết kế thông báo cổ điển</string>
+    <string name="pref_title_colored_app">Màu thích ứng</string>
+    <string name="pref_title_colored_notification">Thông báo màu</string>
+    <string name="pref_title_cross_fade">Crossfade (Beta)</string>
+    <string name="pref_title_custom_font">Sử dụng phông chữ Manrope</string>
+    <string name="pref_title_desaturated_color">Màu khử bão hòa</string>
+    <string name="pref_title_expand_now_playing_panel">Hiển thị màn hình đang phát</string>
+    <string name="pref_title_extra_controls">Kiểm soát bổ sung</string>
+    <string name="pref_title_extra_song_info">Thông tin bài hát</string>
+    <string name="pref_title_gapless_playback">Phát lại không có khoảng trống</string>
+    <string name="pref_title_general_theme">Chủ đề ứng dụng</string>
+    <string name="pref_title_home_album_grid_style">Lưới anbom</string>
+    <string name="pref_title_home_artist_grid_style">Lưới nghệ sĩ</string>
+    <string name="pref_title_home_banner">Ảnh bìa</string>
+    <string name="pref_title_ignore_media_store_artwork">Bỏ qua bìa của Media Store</string>
+    <string name="pref_title_last_added_interval">Khoảng thời gian danh sách phát được thêm lần cuối</string>
+    <string name="pref_title_lock_screen">Điều khiển toàn màn hình</string>
+    <string name="pref_title_lyrics_screen_on">Luôn bật màn hình khi hiển thị lời bài hát</string>
+    <string name="pref_title_lyrics_type">Loại lời bài hát</string>
+    <string name="pref_title_manage_audio_focus">Luôn chơi</string>
+    <string name="pref_title_now_playing_screen_appearance">Hiện đang chơi chủ đề</string>
+    <string name="pref_title_open_source_licences">Giấy phép nguồn mở</string>
+    <string name="pref_title_pause_history">Tạm dừng lịch sử</string>
+    <string name="pref_title_remember_tab">Nhớ tab cuối cùng</string>
+    <string name="pref_title_show_lyrics">Hiển thị lời bài hát</string>
+    <string name="pref_title_suggestions">Hiển thị các đề xuất</string>
+    <string name="pref_title_swipe_anywhere_now_playing">Vuốt bất cứ nơi nào để thay đổi bài hát</string>
+    <string name="pref_title_swipe_to_dismiss">Loại bỏ bằng cách vuốt xuống</string>
+    <string name="pref_title_tab_text_mode">Chế độ tiêu đề tab</string>
+    <string name="pref_title_toggle_carousel_effect">Hiệu ứng băng chuyền</string>
+    <string name="pref_title_toggle_full_screen">Ứng dụng toàn màn hình</string>
+    <string name="pref_title_toggle_toggle_headset">Tự chạy</string>
+    <string name="pref_title_toggle_toggle_shuffle">Chế độ phát ngẫu nhiên</string>
+    <string name="pref_title_toggle_volume">Điều khiển âm lượng</string>
+    <string name="pref_title_wallpaper_accent">Màu nhấn hình nền</string>
+    <string name="pref_title_whitelist">Nhạc trong danh sách trắng</string>
+
+    <string name="equalizer">Bộ chỉnh âm</string>
+    <string name="library_categories">Danh mục thư viện</string>
+    <string name="window">Cửa sổ</string>
+    <string name="no_equalizer">Không tìm thấy bộ cân bằng</string>
+    <string name="credit_title">Thành viên và cộng tác viên</string>
+    <string name="others">Khác</string>
+    <string name="made_with_love">Làm bằng ❤ bằng tiếng Việt</string>
+    <string name="changelog_summary">Kiểm tra những gì mới</string>
+    <string name="changelog">Changelog</string>
+    <string name="support_development">Hỗ trợ phát triển</string>
+    <string name="rate_on_google_play_summary">Bạn thích ứng dụng này? Hãy cho chúng tôi biết trong Cửa hàng Google Play
+        cách chúng tôi có thể làm cho nó tốt hơn nữa
+    </string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="translate_community">Giúp chúng tôi dịch ứng dụng sang ngôn ngữ của bạn</string>
+    <string name="donate">Quyên tặng</string>
+    <string name="donate_summary">Nếu bạn nghĩ tôi xứng đáng được trả công cho công việc của mình, bạn có thể để lại một
+        số tiền ở đây
+    </string>
+    <string name="donation_header">Mua cho tôi một:</string>
+    <string name="done">Xong</string>
+    <string name="help_summary">Cần sự giúp đỡ nhiều hơn?</string>
+    <string name="faq">Câu hỏi thường gặp</string>
+    <string name="share_summary">Chia sẻ ứng dụng với bạn bè và gia đình của bạn</string>
+    <string name="bug_report_summary">Đã xảy ra lỗi không mong muốn. Xin lỗi, bạn đã tìm thấy lỗi này, nếu nó vẫn tiếp
+        tục bị lỗi \ "Xóa dữ liệu ứng dụng \" hoặc gửi Email
+    </string>
+    <string name="bug_report_use_account">Gửi bằng tài khoản GitHub</string>
+    <string name="report_bug">Báo cáo lỗi</string>
+    <string name="git_hub_summary">Fork dự án trên GitHub</string>
+    <string name="git_hub" translatable="false">GitHub</string>
+    <string name="social">Xã hội</string>
+    <string name="website">Trang mạng</string>
+    <string name="website_summary">Kiểm tra trang web của chúng tôi</string>
+    <string name="pinterest_page">Pinterest</string>
+    <string name="pinterest_page_summary">Theo dõi trang Pinterest để lấy cảm hứng thiết kế Lyda</string>
+    <string name="instagram_page" translatable="false">Instagram</string>
+    <string name="instagram_page_summary">Chia sẻ thiết lập Lyda của bạn để giới thiệu trên Instagram</string>
+    <string name="twitter_page">Twitter</string>
+    <string name="twitter_page_summary">Chia sẻ thiết kế của bạn với Lyda</string>
+    <string name="telegram_group">Telegram</string>
+    <string name="telegram_group_summary">Tham gia nhóm Telegram để thảo luận về các lỗi, đưa ra đề xuất, thể hiện và
+        hơn thế nữa
+    </string>
+    <string name="color">Màu sắc</string>
+    <string name="colors">Màu sắc</string>
+    <string name="accent_color">Màu nhấn</string>
+    <string name="accent_color_desc">Màu nhấn chủ đề, mặc định là màu tím</string>
+    <!-- Material You -->
+    <string name="pref_title_md3">Chất liệu bạn</string>
+    <string name="share_app">Chia sẻ ứng dụng</string>
+    <string name="app_share">Này, hãy xem lyda thú vị này tại: https://play.google.com/store/apps/details?id=%s</string>
+
+    <string name="action_about">Về</string>
+    <string name="about_settings_summary">Nhóm, liên kết xã hội</string>
+    <string name="other_settings_summary">Các tính năng kiểm tra nâng cao</string>
+    <string name="notification_settings_summary">Tùy chỉnh kiểu thông báo</string>
+    <string name="image_settings_summary">Thay đổi cài đặt tải xuống hình ảnh nghệ sĩ</string>
+    <string name="personalize">Cá nhân hóa</string>
+    <string name="personalize_settings_summary">Tùy chỉnh các điều khiển giao diện người dùng và đang phát của bạn
+    </string>
+    <string name="audio_settings_summary">Thay đổi cài đặt âm thanh và điều chỉnh các điều khiển của bộ chỉnh âm
+    </string>
+    <string name="now_playing">Đang chơi</string>
+    <string name="now_playing_summary">Tùy chỉnh màn hình đang phát</string>
+    <string name="general_settings_summary">Thay đổi chủ đề và màu sắc của ứng dụng</string>
+    <string name="general_settings_title">Xem và cảm nhận</string>
+
+    <string-array name="pref_upload_quality_entries">
+        <item>360p</item>
+        <item>480p</item>
+        <item>720p</item>
+        <item>1080p</item>
+        <item>Original</item>
+    </string-array>
+
+    <string-array name="pref_remind_me_to_take_a_break">
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>10 hours</item>
+    </string-array>
+
+    <string-array name="pref_seek_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="pref_duration">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="pref_uploads">
+        <item>Only when on Wi-Fi</item>
+        <item>On any network</item>
+    </string-array>
+    <!--end-->
+
+    <string name="customactivityoncrash_error_activity_error_details_share">Chia sẻ báo cáo sự cố</string>
+    <string name="view_on_telegram">Xem trên Telegram</string>
+    <string name="licenses">Giấy phép</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào đoạn trống</string>
+
+</resources>

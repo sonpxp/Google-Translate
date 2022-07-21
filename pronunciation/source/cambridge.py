@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib.parse
+import re
 
 w_fr = []
 w_es = []
@@ -12,10 +13,13 @@ def french(query):
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
     headers = {'User-Agent': user_agent}
     web_request = requests.get(url, headers=headers)
+
     soup = BeautifulSoup(web_request.text, "html.parser")
     pronunciation = soup.find('span', class_='ipa dipa').text
     pronounce = f"/{pronunciation}/"
-    print(pronounce)
+
+    data = re.findall('<span class="ipa dipa">((.|\n)*?)</span>', web_request.text)[0][0]
+    print(f"/{data}/")
 
 
 def spanish(query):
@@ -26,7 +30,10 @@ def spanish(query):
     soup = BeautifulSoup(web_request.text, "html.parser")
     pronunciation = soup.find('span', class_='ipa dipa').text
     pronounce = f"/{pronunciation}/"
-    print(pronounce)
+    # print(pronounce)
+
+    data = re.findall('<span class="ipa dipa">((.|\n)*?)</span>', web_request.text)[0][0]
+    print(f"/{data}/")
 
 
 def german(query):
@@ -37,9 +44,14 @@ def german(query):
     soup = BeautifulSoup(web_request.text, "html.parser")
     pronunciation = soup.find('span', class_='ipa dipa').text
     pronounce = f"/{pronunciation}/"
-    print(pronounce)
+    # print(pronounce)
+
+    data = re.findall('<span class="ipa dipa">((.|\n)*?)</span>', web_request.text)[0][0]
+    print(f"/{data}/")
 
 
-french("Salut")
-spanish("hogar")
-german("heimat")
+# french("Salut")
+# spanish("Gracias")
+# german("heimat")
+
+

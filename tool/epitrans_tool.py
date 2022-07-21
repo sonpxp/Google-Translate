@@ -1,5 +1,4 @@
 import epitran
-from epitran.backoff import Backoff
 
 '''
 https://pypi.org/project/epitran/
@@ -27,6 +26,7 @@ deu-Latn-np	German†
 deu-Latn-nar	German (more phonetic)
 
 '''
+text_es = ["hola", "Gracias", "Salud", "Lo siento", "Por favor", "Adiós"]
 
 
 def spanish(query):
@@ -34,9 +34,15 @@ def spanish(query):
     # ligatures enables non-standard IPA ligatures like "ʤ" and "ʨ".
     # tones allows IPA tones (˩˨˧˦˥) to be included and is needed for tonal languages like Vietnamese and Hokkien.
     # By default, this value is false and will remove IPA tones from the transcription.
-    epi = epitran.Epitran(code, ligatures=False, tones=True)
+    epi = epitran.Epitran(code, preproc=False, ligatures=True, cedict_file=None, tones=False)
     ipa = epi.transliterate(f'{query}')
-    print(f"a: /{ipa}/")
+    return ipa
+    # ipa = epi.transliterate(u'hola')
+    # print(f"a: /{ipa}/")
 
 
-spanish("hola")
+# spanish("hola")
+
+for i in text_es:
+    a = spanish(i)
+    print(a)
