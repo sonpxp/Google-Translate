@@ -49,6 +49,7 @@ def testRegex():
     output = re.sub(r"(?<=<string)*>(.*?)(?=</string>)", f'>{name}', xml_str)
     print(output)
 
-# save to xml file
-save_to_file(readXml())
 
+# save to xml file
+# format code
+save_to_file(readXml())
